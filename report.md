@@ -1,3 +1,9 @@
+\begin{center}
+{\Large BINF7001 ASSESSMENT 4 (2024)}\\[0.5em]
+{\Large The Superworm and Polystyrene Biodegradability}\\[0.5em]
+{\Large Lachlan Miller s42066855}
+\end{center}
+
 # Abstract 
 
 Polystyrene is a widely used organic polymer that is cheap, strong and, unfortunately, incredibly difficult to break down. In this study *Zophobas morio* ("Superworms") is evaluated as a candidate to naturally degrade polystyrene, with some promising results. 
