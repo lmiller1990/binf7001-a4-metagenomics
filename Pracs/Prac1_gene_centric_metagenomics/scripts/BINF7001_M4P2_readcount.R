@@ -72,14 +72,16 @@ ggsave("Figures/Read_count.png", plot = read.count.plot, dpi = 600, units = c("i
 ##Plot ratio using ggplot2. 
 read.ratio.plot <- ggplot(reads, aes(x = Sample_ID, y = value, fill = variable)) +
   geom_col(position = "fill") +
-
   theme_bw() +
   ylab("read count ratios") +
-  guides(fill = guide_legend(title = "Read type"))
+  guides(fill = guide_legend(title = "Read type")) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    scale_fill_discrete(labels = function(x) gsub("_", " ", x))
+
 
 ##Call the plot 
 read.ratio.plot
-ggsave("Figures/Read_ratio-readtype.png", plot = read.ratio.plot, dpi = 600, units = c("in"), width = 4, height = 5)
+ggsave("Figures/Read_ratio-readtype.png", plot = read.ratio.plot, dpi = 600, units = c("in"), width = 4, height = 3)
 
 
 ###Melt the data into a longer format using sample_type, microbial and host read counts
