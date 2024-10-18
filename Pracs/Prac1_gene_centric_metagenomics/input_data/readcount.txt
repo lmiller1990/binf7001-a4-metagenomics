@@ -1,0 +1,10 @@
+Sample_ID	Sample_type	Total_reads	Microbial_reads	Microbial_reads_percentage	Host_reads	Host_reads_percentage
+Bran_1	Bran	10000	7062	70.62	2938	29.38
+Bran_2	Bran	10000	7380	73.8	2620	26.2
+Bran_3	Bran	10000	7139	71.39	2861	28.61
+PS_1	Polystyrene	10000	7289	72.89	2711	27.11
+PS_2	Polystyrene	10000	7324	73.24	2676	26.76
+PS_3	Polystyrene	10000	7159	71.59	2841	28.41
+CO_1	No food	10000	7268	72.68	2732	27.32
+CO_2	No food	10000	7559	75.59	2441	24.41
+CO_3	No food	10000	7321	73.21	2679	26.79

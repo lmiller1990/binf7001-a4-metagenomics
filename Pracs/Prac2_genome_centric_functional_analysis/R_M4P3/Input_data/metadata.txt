@@ -1,0 +1,9 @@
+Sample_ID	Type
+Bran_1	Bran
+Bran_2	Bran
+PS_2	Polystyrene
+PS_3	Polystyrene
+CO_2	No food
+CO_3	No food
+Faeces_BR	Faeces from Bran group
+Faeces_PS	Faeces from PS group
