@@ -22,7 +22,7 @@ This lack of biodegradability, along with our growing population and addition to
 
 There has been some notable progress in this area. *Klebsiella pneumoniae* and *Rhodococcus sp.* have been shown to promote degradation of Polyethylene(PE) and *Pseudomonas citronellolis* and *Bacillus flexus* for Polyvinyl chloride (PVC) (Atanasova, 2021). Polyethylene, and subsequently, polystyrene, thought to be non biodegradable, was shown to have improved biodegradation when exposed to a biofilm producing strain of *Rhodococcus ruber* (Mor, 2008). More recently, *Enterobacter asburiae YT1* and *Bacillus sp* isolated from the gut of waxworms was shown to be capable of degrading PE (Yang, 2014) and *Pseudomonas*, *Rhodococcus* and *Corynebacterium* are shown to improve polystyrene degradation (Sun, 2022).
 
-This study aims to explore ways to dispose of polystyrene by applying metagenomic analysis to the gut microbiome of superworms, primarily using a gene centric analysis. Our findings are that superworms can not only survive on a pure diet of polystyrene but are able to gain some weight and successfully pupate. The species *corynebacterium* and *pseudomonas*, in particular, exhibited strong biodegrading behaviours. The war on cheap yet near-indestructible plastics is far from over, our study shows promising results. Our wormy companions may offer some hope, yet!
+This study aims to explore ways to dispose of polystyrene by applying metagenomic analysis to the gut microbiome of superworms, primarily using a gene centric analysis. Our findings are that superworms can not only survive on a pure diet of polystyrene but are able to gain some weight and successfully pupate. The species *Corynebacterium* and *Pseudomonas*, in particular, exhibited strong biodegrading behaviours. The war on cheap yet near-indestructible plastics is far from over, our study shows promising results. Our wormy companions may offer some hope, yet!
 
 # Materials and Methods
 
@@ -70,10 +70,9 @@ The first component is, by far, contributes the most to the variance. After the 
 ![](./Pracs/Prac1_gene_centric_metagenomics/Figures/BP_Log2FC_sig.png)
 **Figure 6: Log2 fold change for significant taxa**
 
-
 Figure 6 presents a most significant taxa between the Bran and PS group by their log2 fold change. The taxa with a blue (positive) log2 fold change value are more abundant in the PS group; red are less abundant.
 
-*Leuconostoc* and *Weissella* are have a high log2 fold change; they are much more abundant in the Bran group. Both belong to the *lactobacillaceae* family. This is in line with other similar studies; these species are known to be indicators of a healthy gut microbiome in Bran fed worms (Pekmezekmek, 2024). The two species with the lowest log2 fold change are *corynebacterium* and *pseudomonas*. This is interesting and shall be elaborated on in the discussion.
+*Leuconostoc* and *Weissella* are have a high log2 fold change; they are much more abundant in the Bran group. Both belong to the *Lactobacillaceae* family. This is in line with other similar studies; these species are known to be indicators of a healthy gut microbiome in Bran fed worms (Pekmezekmek, 2024). The two species with the lowest log2 fold change are *Corynebacterium* and *Pseudomonas*. This is interesting and shall be elaborated on in the discussion.
 
 # Discussion
 
@@ -97,9 +96,9 @@ Although the PCA shows clear clustering between the samples in each group, the h
 
 There is clear variation in diversity in each group. The fold change waterfall plot (figure 6) shows the most statistically significant log2 fold change in abundance between the PS and Bran group.
 
-Both belong to the Members of the *lactobacillaceae* family, *Leuconostoc* and *Weissella*, have the highest log2 fold change. They are substantially more abundant. This suggests those bacteria are in some way involved in breaking down Bran, but not polystyrene. One possibility is they produce an enzyme that breaks down cellulose.
+Both belong to the Members of the *Lactobacillaceae* family, *Leuconostoc* and *Weissella*, have the highest log2 fold change. They are substantially more abundant. This suggests those bacteria are in some way involved in breaking down Bran, but not polystyrene. One possibility is they produce an enzyme that breaks down cellulose.
 
-*corynebacterium* and *pseudomonas* have the lowest log2 fold change. It is possible the polystyrene creates an environment that promotes growth of these species, such as a change in pH or moisture.  Another exciting possibility is those bacteria play a role in the biodegradation of polystyrene. *Peusomonas*, in particular, is known for its metabolic diversity, and some strains have been found to prefer hydrocarbons over glucose (Basu, 2006). 
+*Corynebacterium* and *Pseudomonas* have the lowest log2 fold change. It is possible the polystyrene creates an environment that promotes growth of these species, such as a change in pH or moisture.  Another exciting possibility is those bacteria play a role in the biodegradation of polystyrene. *Peusomonas*, in particular, is known for its metabolic diversity, and some strains have been found to prefer hydrocarbons over glucose (Basu, 2006). 
 
 This is fascinating and some potential experiments to further understand this activity are worth considering. In particular, we propose a qualitative assessment of how much polystyrene is degraded to provide more robust evidence for the biodegradation capability. 
 
