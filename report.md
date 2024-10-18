@@ -8,9 +8,9 @@
 
 Polystyrene is a widely used organic polymer that is cheap, strong and, unfortunately, incredibly difficult to break down. In this study *Zophobas morio* ("Superworms") is evaluated as a candidate to naturally degrade polystyrene, with some promising results. 
 
-With the goal of finding a sustainable method to break down Polystyrene, three groups of works were raised on three diets (Bran, Polystyrene, Starvation) over a period of three weeks and their gut microbiome subsequently analysed with interesting results. The proportion of microbes compared to the host cells in the gut after the trial showed very little difference between the three groups, suggesting the superworm gut microbiome is highly adaptable to an unnatural diet. Metagenomic analysis showed diversity was reduce for both the polystyrene and starvation group.
+With the goal of finding a sustainable method to break down Polystyrene, three groups of works were raised on three diets (Bran, Polystyrene, Starvation) over a period of three weeks and their gut microbiome subsequently analysed with interesting results. The proportion of microbes compared to the host cells in the gut after the trial showed very little difference between the three groups, suggesting the superworm gut microbiome is highly adaptable to an unnatural diet, or no diet at all.
 
-Weight gain was significantly reduced in the polystyrene group. Some weight gain indicates the Superworms are able to derive some energy from the polystyrene, although clearly it is suboptimal diet.
+Weight gain was significantly reduced in the polystyrene group. Despite a clearly suboptimal diet, slight weight gain indicates the superworms are able to derive some energy from the polystyrene. The pupation rate of the polystyrene group, while reduced, was still 66.7%. the worms were shown to be able to break down polystyrene, live and reproduce, on a diet of pure hydrocarbons.
 
 Definitions: Polystyrene, PS; Starvation, CO
 
@@ -20,7 +20,9 @@ Most plastics are composed of hydrocarbons - organic compounds made from hydroge
 
 This lack of biodegradability, along with our growing population and addition to inexpensive and long lasting plastic products has led to a renewed effort in recent years to find natural ways to break down a wholly unnatural product.
 
-There has been some notable progress in this area. *Klebsiella pneumoniae* and *Rhodococcus sp.* have been shown to promote degradation of Polyethylene(PE) and *Pseudomonas citronellolis* and *Bacillus flexus* for Polyvinyl chloride (PVC) (Atanasova, 2021). Polyethylene, and subsequently, polystyrene, thought to be non biodegradable, was shown to have improved biodegradation when exposed to a biofilm producing strain of *Rhodococcus ruber* (Mor, 2008). More recently, *Enterobacter asburiae YT1* and *Bacillus sp* isolated from the gut of waxworms was shown to be capable of degrading PE (Yang, 2014) and *Pseudomonas*, *Rhodococcus* and *Corynebacterium* are shown to improve Polystyrene degradation (Sun, 2022).
+There has been some notable progress in this area. *Klebsiella pneumoniae* and *Rhodococcus sp.* have been shown to promote degradation of Polyethylene(PE) and *Pseudomonas citronellolis* and *Bacillus flexus* for Polyvinyl chloride (PVC) (Atanasova, 2021). Polyethylene, and subsequently, polystyrene, thought to be non biodegradable, was shown to have improved biodegradation when exposed to a biofilm producing strain of *Rhodococcus ruber* (Mor, 2008). More recently, *Enterobacter asburiae YT1* and *Bacillus sp* isolated from the gut of waxworms was shown to be capable of degrading PE (Yang, 2014) and *Pseudomonas*, *Rhodococcus* and *Corynebacterium* are shown to improve polystyrene degradation (Sun, 2022).
+
+This study aims to explore ways to dispose of polystyrene by applying metagenomic analysis to the gut microbiome of superworms, primarily using a gene centric analysis. Our findings are that superworms can not only survive on a pure diet of polystyrene but are able to gain some weight and successfully pupate. The species *corynebacterium* and *pseudomonas*, in particular, exhibited strong biodegrading behaviours. The war on cheap yet near-indestructible plastics is far from over, our study shows promising results. Our wormy companions may offer some hope, yet!
 
 # Materials and Methods
 
@@ -44,7 +46,7 @@ This table show the percent of non host reads for each sample, averaged across t
 **Table 1: Non-host average read percentage**: The percentage of non host reads in the gut remained reasonably consistent across all three samples, with the CO group having slightly more non host. This can be better visualized using a graph. The below stacked graph shows the proportion of host reads compared to microbial reads. Although the Bran group shows the highest host reads, followed by PS and CO in last place, the overall difference is minimal. 
 
 ![](./Pracs/Prac1_gene_centric_metagenomics/Figures/Read_ratio-readtype.png)
-**Figure 1: Ratio of read types**: Although this doesn't speak to the relative abundance of microbes, it shows the ratios are relatively stable, comparing a natural diet of bran, what you would expect to be a poor diet of polystyrene, and no diet at all. 
+**Figure 1: Ratio of read types**: Although this does not speak to the relative abundance of microbes, it shows the ratios are relatively stable, comparing a natural diet of bran, what you would expect to be a poor diet of polystyrene, and no diet at all. 
 
 The absolute abundance of microbes does not seem to change substantially based on diet, but how about the relative abundance in each of those communities? Figure 2 shows the diversity using the Shannon and Simpson indices using a box plot. 
 
@@ -77,7 +79,7 @@ Figure 6 presents a most significant taxa between the Bran and PS group by their
 
 The Bran group has an average of 71.93% non host reads and PS group has an average of 72.57%. This compares to the CO group which has an average of 73.82%. This means the CO group has a slightly lower amount of worm cells (the host) in the gut. It is possible to suggest that the CO group may be adapting to a lack of food by shedding less of the gut wall, perhaps in an effort to maintain vital nutrients due to a lack of food (new resources), however, the difference is small and could be explained by random variance. The fact the change is so small across all three groups suggests the gut microbiome of superworms is highly resilient to a sudden change in diet. 
 
-This difference is visual clear in the proportion of host reads compared to microbial reads, shown in figure 1. Although the Bran group shows the highest host reads, followed by PS and CO in last place, the overall difference is minimal. Although this doesn't speak to the relative abundance of microbes, it shows the ratios are relatively stable, comparing a natural diet of bran, what you would expect to be a poor diet of polystyrene, and no diet at all. This suggests the gut microbiome of superworms is highly resilient to a sudden change in diet.
+This difference is visual clear in the proportion of host reads compared to microbial reads, shown in figure 1. Although the Bran group shows the highest host reads, followed by PS and CO in last place, the overall difference is minimal. Although this does not speak to the relative abundance of microbes, it shows the ratios are relatively stable, comparing a natural diet of bran, what you would expect to be a poor diet of polystyrene, and no diet at all. This suggests the gut microbiome of superworms is highly resilient to a sudden change in diet.
 
 While the absolute abundance of microbes does not seem to change substantially based on diet, but how about the relative abundance in each of those communities? The Shannon and Simpson Indices offer some interesting insight (see figure 2).
 
